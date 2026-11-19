@@ -7,12 +7,17 @@
 | Занятие | Конспект | Домашняя работа |
 | :---: | :---: | :---: |
 | 1 | [Абсолютная и относительная погрешности](lesson_01/class/report.md) | [Верные цифры и расчёт погрешностей](lesson_01/hw/hw.md) |
-| 2 | [Потеря точности при вычитании близких чисел](lesson_02/class/report.md) | — |
+| 2 | [Потеря точности при вычитании близких чисел](lesson_02/class/report.md) | [Погрешности, округление и накопление ошибки](lesson_02/hw/report.md) |
+| 3 | [Массивы NumPy, изменение формы, срезы и булевы маски](lesson_03/class/report.md) | — |
+| 4 | [Векторизация и сравнение производительности циклов и NumPy](lesson_04/class/main.py) | — |
 
 ## Структура
 
 ```text
 .
+├── assets/
+│   └── lesson_02/
+│       └── task14_error.png
 ├── lesson_01/
 │   ├── class/
 │   │   ├── main.py
@@ -21,9 +26,19 @@
 │       ├── hw.md
 │       └── main.py
 ├── lesson_02/
+│   ├── class/
+│   │   ├── main.py
+│   │   └── report.md
+│   └── hw/
+│       ├── main.py
+│       └── report.md
+├── lesson_03/
 │   └── class/
 │       ├── main.py
 │       └── report.md
+├── lesson_04/
+│   └── class/
+│       └── main.py
 ├── .gitignore
 ├── LICENSE
 └── README.md
